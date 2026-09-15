@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:foo_richtext_mac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/SDK-2026-09-17/pfc/pfc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/SDK-2026-09-17/foobar2000/SDK/foobar2000_SDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/SDK-2026-09-17/foobar2000/helpers/foobar2000_SDK_helpers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/SDK-2026-09-17/foobar2000/shared/shared.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/SDK-2026-09-17/foobar2000/foobar2000_component_client/foobar2000_component_client.xcodeproj">
+   </FileRef>
+</Workspace>
