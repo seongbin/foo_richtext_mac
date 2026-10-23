@@ -46,6 +46,7 @@
 		7F0000B10000000000000011 /* scriptstore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scriptstore.h; sourceTree = "<group>"; };
 		7F0000B10000000000000012 /* scriptstore.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = scriptstore.mm; sourceTree = "<group>"; };
 		7F0000B10000000000000010 /* version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = version.cpp; sourceTree = "<group>"; };
+		7F0000B10000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0000B20000000000000001 /* RichTextPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextPanelViewController.h; sourceTree = "<group>"; };
 		7F0000B20000000000000002 /* RichTextPanelViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RichTextPanelViewController.mm; sourceTree = "<group>"; };
 		7F0000B20000000000000006 /* RichTextConfigWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextConfigWindowController.h; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 				7F0000B10000000000000012 /* scriptstore.mm */,
 				7F0000B1000000000000000E /* element.mm */,
 				7F0000B10000000000000010 /* version.cpp */,
+				7F0000B10000000000000013 /* Info.plist */,
 				7F0000A00000000000000005 /* Mac */,
 				7F0000A00000000000000006 /* helpers-mac */,
 				7F0000A00000000000000003 /* Products */,
@@ -367,6 +369,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foobar2000.foo-mac-richtext";
@@ -386,6 +389,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foobar2000.foo-mac-richtext";
